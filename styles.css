@@ -1,0 +1,71 @@
+body{
+    /*background-image: url('https://viimeistamuruamyoten.com/wp-content/uploads/2020/01/turunravintola-vaaka.jpg');*/
+    
+    background-image: url('https://th.bing.com/th/id/OIP.F48Ta-u-I74gaRY18l_8sAHaE8?pid=ImgDet&rs=1');
+    background-repeat: no-repeat;
+    object-fit: contain;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#container{
+    width:400px;
+    margin:0 auto;
+    margin-top:20%;
+}
+/* Bordered form */
+form {
+    display: flex;
+    flex-direction: column;
+    width:50%;
+    height: 30%;
+    align-content: center;
+    border-radius: 15px;
+    padding: 30px;
+    border: 1px solid #f1f1f1;
+    margin: auto;
+    background: #fff;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+form a{
+margin-top: 10px;
+}
+    h1{
+    width: 38%;
+    margin:  auto;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password], input[type=email],select {
+
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+input[type=submit] {
+    background-color: #53af57;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+button{
+    background-color: #53af57;
+    color: white;
+    border: 1px solid #53af57;
+    display: inline-block;
+}
+.error{
+    color: red;
+}

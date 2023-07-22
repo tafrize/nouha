@@ -1,0 +1,77 @@
+body {
+    position: relative;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url('https://th.bing.com/th/id/OIP.F48Ta-u-I74gaRY18l_8sAHaE8?pid=ImgDet&rs=1');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+/* Ajoutez ce code CSS à votre fichier home.css */
+.hero-section {
+    text-align: center;
+    margin-top: 180px;
+  }
+  
+  .hero-section h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: beige;
+
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  
+  nav {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1240px;
+    margin: auto;
+    height: 100%;
+    padding: 0 1rem;
+  }
+  
+  .navbar-links {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    max-width: 1240px;
+    margin: auto;
+    height: 100%;
+    padding: 0 1rem;
+  }
+  
+  .navbar-links li {
+    margin-top: 45px;
+    margin-right: 35px;
+    list-style:none ;
+    display: inline;
+  }
+  
+  .navbar-links li a {
+    
+    text-decoration: none;
+    color: white;
+  }
+  
+
+  
