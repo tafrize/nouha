@@ -7,7 +7,6 @@ body {
     background-attachment: fixed;
   }
 
-/* Ajoutez ce code CSS à votre fichier home.css */
 .hero-section {
     text-align: center;
     margin-top: 180px;
@@ -17,7 +16,6 @@ body {
     font-size: 32px;
     margin-bottom: 20px;
     color: beige;
-
   }
   
   .cta-button {
@@ -35,7 +33,6 @@ body {
   .cta-button:hover {
     background-color: rgba(255, 255, 255, 0.2);
   }
-  
   
   nav {
     margin-top: 50px;

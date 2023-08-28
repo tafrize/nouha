@@ -1,0 +1,73 @@
+h1 {
+  text-align: center;
+  margin-top: 50px; /* Ajuste la marge selon tes besoins */
+  font-size: 2rem; /* Ajuste la taille de la police selon tes besoins */
+  color: #333; /* Couleur du texte */
+}
+
+p {
+  text-align: center;
+  font-size: 1.2rem; /* Ajuste la taille de la police selon tes besoins */
+  color: #777; /* Couleur du texte */
+  margin-bottom: 50px; /* Ajuste la marge selon tes besoins */
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Centrer horizontalement */
+  text-align: center; /* Centrer le contenu dans les cartes */
+  margin: 0 auto; /* Centrer le conteneur */
+}
+
+.product-card{
+    flex: 0 1 calc(22% - 20px);
+    max-width: calc(25% - 20px);
+    border-radius: 20px;
+    margin: 10px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    padding: 15px;
+   
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.product-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
+.product-card .price {
+    font-weight: bold;
+    color: #e44d26;
+    margin-bottom: 10px;
+}
+
+.product-card p {
+    margin-bottom: 10px;
+}
+
+.add-to-cart {
+    display: inline-block;
+    padding: 8px 12px;
+    background-color: #e44d26;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.add-to-cart:hover {
+    background-color: #d1401b;
+}

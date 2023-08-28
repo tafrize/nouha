@@ -6,8 +6,6 @@
 </head>
 <body>
   <div class="container">
-   
-  
     <form action="connexion.php" method="POST">
       <h1>Authentification</h1>  
       <label><b>Adresse mail</b></label>
@@ -26,7 +24,7 @@
       <a href="register.php">S'inscrire</a>
       <a href="register.php">Mot de passe oublié</a>
     </form>
-    
+  
   </div>
 </body>
 </html>

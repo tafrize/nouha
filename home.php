@@ -9,6 +9,7 @@
     <ul class="navbar-links">
       <li><a href="home.php">Accueil</a></li>
       <li><a href="plats.php">Menus</a></li>
+      <li><a href="plantes.php">Plantes</a></li>
       <li><a href="apropos.php">A propos</a></li>
       <li><a href="panier.php">Panier</a></li>
       <li><a href="contact.php">Contact</a></li>

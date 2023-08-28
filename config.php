@@ -9,5 +9,5 @@
             if($connexion->connect_error){
                 die('Erreur : ' .$connexion->connect_error);
             }
-            echo 'Connexion réussie à la base de donnée '.$database;
+            
 ?>
