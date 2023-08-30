@@ -4,7 +4,6 @@ session_start();
 if (isset($_GET['action']) && isset($_GET['product_id'])) {
     $action = $_GET['action'];
     $product_id = $_GET['product_id'];
-
     if ($action === 'increase') {
         increaseQuantity($product_id);
     } elseif ($action === 'decrease') {

@@ -10,7 +10,7 @@
     <body>
         <h1>Liste des Plantes</h1>
         <p>Laissez vous emporter par la nature et ses merveilles</p>
-        <div class="product-list"> 
+        <div class="product-list" id="menus"> 
                 
         <?php
         require_once('config.php');
