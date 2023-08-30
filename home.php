@@ -5,11 +5,11 @@
   <link rel="stylesheet" type="text/css" href="home.css">
 </head>
 <body>
+  
   <nav>
     <ul class="navbar-links">
     <li><a href="server.php#home" target="_parent">Accueil</a></li>
     <li><a href="server.php#menus" target="_parent">Menus</a></li>
-    <li><a href="server.php#plantes" target="_parent">Plantes</a></li>
     <li><a href="server.php#reservation" target="_parent">Réservation</a></li>
     <li><a href="server.php#apropos" target="_parent">A propos</a></li>
     <li><a href="server.php#contact" target="_parent">Contact</a></li>

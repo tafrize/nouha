@@ -13,15 +13,9 @@
     <iframe src="plats.php" frameborder="0"></iframe>
   </section>
 
-  <section id="plantes" class="section">
-    <iframe src="plantes.php" frameborder="0"></iframe>
-  </section>
-
   <section id="reservation" class="section">
     <iframe src="reservations.php" frameborder="0"></iframe>
   </section>
-
-  
 
   <footer>
   </footer>

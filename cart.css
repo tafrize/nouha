@@ -1,0 +1,144 @@
+/* cart.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.cart-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.cart-items {
+    flex: 1;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.item-image img {
+    max-width: 80px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.item-details {
+    flex: 1;
+    margin-left: 10px;
+}
+
+.item-details h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.item-details p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #666;
+}
+
+.item-quantity {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.item-quantity a {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    line-height: 25px;
+    font-size: 18px;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.item-quantity span {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.total-price {
+    font-weight: bold;
+    margin-top: 20px;
+    color: red;
+}
+
+.empty-cart {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.cart-form {
+    flex: 1;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    width: 300px; /* Largeur fixe du formulaire */
+    position: sticky;
+    top: 20px; /* Distance depuis le haut où le formulaire restera fixe */
+}
+
+.cart-form h2 {
+    margin-bottom: 10px;
+}
+
+.cart-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.cart-form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+}
+
+.cart-form button {
+    background-color: #66CDAA;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cart-form button:hover {
+    background-color: #66CDAA !important;
+}
+
+.cart-form input[type="text"],
+.cart-form input[type="email"],
+.cart-form input[type="date"],
+.cart-form input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; 
+}
+
+/* Ajoutez d'autres styles selon vos préférences */
